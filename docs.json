@@ -14,72 +14,6 @@
   "navigation": {
     "languages": [
       {
-        "language": "en",
-        "groups": [
-          {
-            "group": "Home",
-            "pages": [
-              "en/index",
-              "en/getting-started"
-            ],
-            "icon": "home"
-          },
-          {
-            "group": "Operations",
-            "pages": [
-              "en/operations/members",
-              "en/operations/memberships",
-              "en/operations/check-in",
-              "en/operations/point-of-sale",
-              "en/operations/cashier-shifts",
-              "en/operations/classes-and-personal-training"
-            ],
-            "icon": "barbell"
-          },
-          {
-            "group": "Products & Inventory",
-            "pages": [
-              "en/products-inventory/products-and-units",
-              "en/products-inventory/inventory"
-            ],
-            "icon": "package"
-          },
-          {
-            "group": "Purchasing",
-            "pages": [
-              "en/purchasing/purchase-orders",
-              "en/purchasing/supplier-invoices"
-            ],
-            "icon": "shopping-cart"
-          },
-          {
-            "group": "Finance",
-            "pages": [
-              "en/finance/transactions-and-refunds",
-              "en/finance/reports-and-expenses"
-            ],
-            "icon": "cash"
-          },
-          {
-            "group": "Administration",
-            "pages": [
-              "en/administration/gym-settings",
-              "en/administration/staff-and-branches",
-              "en/administration/member-messages",
-              "en/administration/kavosto-subscription"
-            ],
-            "icon": "settings"
-          },
-          {
-            "group": "Help",
-            "pages": [
-              "en/help"
-            ],
-            "icon": "lifebuoy"
-          }
-        ]
-      },
-      {
         "language": "id",
         "groups": [
           {
@@ -142,6 +76,72 @@
               "id/help"
             ],
             "icon": "lifebuoy"
+          }
+        ]
+      },
+      {
+        "language": "en",
+        "groups": [
+          {
+            "group": "Home",
+            "icon": "home",
+            "pages": [
+              "en/index",
+              "en/getting-started"
+            ]
+          },
+          {
+            "group": "Operations",
+            "icon": "barbell",
+            "pages": [
+              "en/operations/members",
+              "en/operations/memberships",
+              "en/operations/check-in",
+              "en/operations/point-of-sale",
+              "en/operations/cashier-shifts",
+              "en/operations/classes-and-personal-training"
+            ]
+          },
+          {
+            "group": "Products & Inventory",
+            "icon": "package",
+            "pages": [
+              "en/products-inventory/products-and-units",
+              "en/products-inventory/inventory"
+            ]
+          },
+          {
+            "group": "Purchasing",
+            "icon": "shopping-cart",
+            "pages": [
+              "en/purchasing/purchase-orders",
+              "en/purchasing/supplier-invoices"
+            ]
+          },
+          {
+            "group": "Finance",
+            "icon": "cash",
+            "pages": [
+              "en/finance/transactions-and-refunds",
+              "en/finance/reports-and-expenses"
+            ]
+          },
+          {
+            "group": "Administration",
+            "icon": "settings",
+            "pages": [
+              "en/administration/gym-settings",
+              "en/administration/staff-and-branches",
+              "en/administration/member-messages",
+              "en/administration/kavosto-subscription"
+            ]
+          },
+          {
+            "group": "Help",
+            "icon": "lifebuoy",
+            "pages": [
+              "en/help"
+            ]
           }
         ]
       }
