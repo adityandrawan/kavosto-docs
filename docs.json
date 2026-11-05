@@ -21,8 +21,7 @@
             "pages": [
               "id/index",
               "id/getting-started"
-            ],
-            "icon": "home"
+            ]
           },
           {
             "group": "Operasional",
@@ -33,32 +32,28 @@
               "id/operations/point-of-sale",
               "id/operations/cashier-shifts",
               "id/operations/classes-and-personal-training"
-            ],
-            "icon": "barbell"
+            ]
           },
           {
             "group": "Produk & Persediaan",
             "pages": [
               "id/products-inventory/products-and-units",
               "id/products-inventory/inventory"
-            ],
-            "icon": "package"
+            ]
           },
           {
             "group": "Pembelian",
             "pages": [
               "id/purchasing/purchase-orders",
               "id/purchasing/supplier-invoices"
-            ],
-            "icon": "shopping-cart"
+            ]
           },
           {
             "group": "Keuangan",
             "pages": [
               "id/finance/transactions-and-refunds",
               "id/finance/reports-and-expenses"
-            ],
-            "icon": "cash"
+            ]
           },
           {
             "group": "Administrasi",
@@ -67,15 +62,13 @@
               "id/administration/staff-and-branches",
               "id/administration/member-messages",
               "id/administration/kavosto-subscription"
-            ],
-            "icon": "settings"
+            ]
           },
           {
             "group": "Bantuan",
             "pages": [
               "id/help"
-            ],
-            "icon": "lifebuoy"
+            ]
           }
         ]
       },
@@ -84,7 +77,6 @@
         "groups": [
           {
             "group": "Home",
-            "icon": "home",
             "pages": [
               "en/index",
               "en/getting-started"
@@ -92,7 +84,6 @@
           },
           {
             "group": "Operations",
-            "icon": "barbell",
             "pages": [
               "en/operations/members",
               "en/operations/memberships",
@@ -104,7 +95,6 @@
           },
           {
             "group": "Products & Inventory",
-            "icon": "package",
             "pages": [
               "en/products-inventory/products-and-units",
               "en/products-inventory/inventory"
@@ -112,7 +102,6 @@
           },
           {
             "group": "Purchasing",
-            "icon": "shopping-cart",
             "pages": [
               "en/purchasing/purchase-orders",
               "en/purchasing/supplier-invoices"
@@ -120,7 +109,6 @@
           },
           {
             "group": "Finance",
-            "icon": "cash",
             "pages": [
               "en/finance/transactions-and-refunds",
               "en/finance/reports-and-expenses"
@@ -128,7 +116,6 @@
           },
           {
             "group": "Administration",
-            "icon": "settings",
             "pages": [
               "en/administration/gym-settings",
               "en/administration/staff-and-branches",
@@ -138,7 +125,6 @@
           },
           {
             "group": "Help",
-            "icon": "lifebuoy",
             "pages": [
               "en/help"
             ]
