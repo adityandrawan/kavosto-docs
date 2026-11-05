@@ -1,7 +1,7 @@
 {
   "$schema": "https://mintlify.com/docs.json",
   "theme": "mint",
-  "name": "Mintlify Docs",
+  "name": "Kavosto Docs",
   "colors": {
     "primary": "#11B9A6",
     "light": "#11B9A6",
@@ -9,29 +9,140 @@
   },
   "favicon": "/favicon.svg",
   "navigation": {
-    "pages": [
+    "languages": [
       {
-        "group": "Getting Started",
-        "pages": [
-          "index",
-          "quickstart"
+        "language": "en",
+        "groups": [
+          {
+            "group": "Home",
+            "pages": [
+              "en/index",
+              "en/getting-started"
+            ],
+            "icon": "home"
+          },
+          {
+            "group": "Operations",
+            "pages": [
+              "en/operations/members",
+              "en/operations/memberships",
+              "en/operations/check-in",
+              "en/operations/point-of-sale",
+              "en/operations/cashier-shifts",
+              "en/operations/classes-and-personal-training"
+            ],
+            "icon": "barbell"
+          },
+          {
+            "group": "Products & Inventory",
+            "pages": [
+              "en/products-inventory/products-and-units",
+              "en/products-inventory/inventory"
+            ],
+            "icon": "package"
+          },
+          {
+            "group": "Purchasing",
+            "pages": [
+              "en/purchasing/purchase-orders",
+              "en/purchasing/supplier-invoices"
+            ],
+            "icon": "shopping-cart"
+          },
+          {
+            "group": "Finance",
+            "pages": [
+              "en/finance/transactions-and-refunds",
+              "en/finance/reports-and-expenses"
+            ],
+            "icon": "cash"
+          },
+          {
+            "group": "Administration",
+            "pages": [
+              "en/administration/gym-settings",
+              "en/administration/staff-and-branches",
+              "en/administration/member-messages",
+              "en/administration/kavosto-subscription"
+            ],
+            "icon": "settings"
+          },
+          {
+            "group": "Help",
+            "pages": [
+              "en/help"
+            ],
+            "icon": "lifebuoy"
+          }
+        ]
+      },
+      {
+        "language": "id",
+        "groups": [
+          {
+            "group": "Beranda",
+            "pages": [
+              "id/index",
+              "id/getting-started"
+            ],
+            "icon": "home"
+          },
+          {
+            "group": "Operasional",
+            "pages": [
+              "id/operations/members",
+              "id/operations/memberships",
+              "id/operations/check-in",
+              "id/operations/point-of-sale",
+              "id/operations/cashier-shifts",
+              "id/operations/classes-and-personal-training"
+            ],
+            "icon": "barbell"
+          },
+          {
+            "group": "Produk & Persediaan",
+            "pages": [
+              "id/products-inventory/products-and-units",
+              "id/products-inventory/inventory"
+            ],
+            "icon": "package"
+          },
+          {
+            "group": "Pembelian",
+            "pages": [
+              "id/purchasing/purchase-orders",
+              "id/purchasing/supplier-invoices"
+            ],
+            "icon": "shopping-cart"
+          },
+          {
+            "group": "Keuangan",
+            "pages": [
+              "id/finance/transactions-and-refunds",
+              "id/finance/reports-and-expenses"
+            ],
+            "icon": "cash"
+          },
+          {
+            "group": "Administrasi",
+            "pages": [
+              "id/administration/gym-settings",
+              "id/administration/staff-and-branches",
+              "id/administration/member-messages",
+              "id/administration/kavosto-subscription"
+            ],
+            "icon": "settings"
+          },
+          {
+            "group": "Bantuan",
+            "pages": [
+              "id/help"
+            ],
+            "icon": "lifebuoy"
+          }
         ]
       }
-    ],
-    "global": {
-      "anchors": [
-        {
-          "anchor": "Documentation",
-          "href": "https://mintlify.com/docs",
-          "icon": "file"
-        },
-        {
-          "anchor": "Blogs",
-          "href": "https://mintlify.com/blog",
-          "icon": "newspaper"
-        }
-      ]
-    }
+    ]
   },
   "logo": {
     "light": "/images/LogoUtama.png",
@@ -41,33 +152,9 @@
     "links": [
       {
         "label": "Support",
-        "href": "mailto:support@mintlify.com"
+        "href": "mailto:support@kavosto.com"
       }
-    ],
-    "primary": {
-      "type": "button",
-      "label": "Dashboard",
-      "href": "https://app.mintlify.com"
-    }
-  },
-  "contextual": {
-    "options": [
-      "copy",
-      "view",
-      "chatgpt",
-      "claude",
-      "perplexity",
-      "mcp",
-      "cursor",
-      "vscode"
     ]
-  },
-  "footer": {
-    "socials": {
-      "x": "https://x.com/mintlify",
-      "github": "https://github.com/mintlify",
-      "linkedin": "https://linkedin.com/company/mintlify"
-    }
   },
   "icons": {
     "library": "tabler"
