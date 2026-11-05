@@ -1,0 +1,21 @@
+/* Keep long table cells wrapped instead of forcing horizontal scrolling. */
+table {
+  width: 100%;
+  table-layout: auto;
+}
+
+table th,
+table td {
+  white-space: normal !important;
+  overflow-wrap: anywhere;
+  word-break: normal;
+  min-width: 0;
+}
+
+/* Never let content images exceed the article column. */
+.prose img,
+article img {
+  max-width: 100%;
+  height: auto;
+}
+
