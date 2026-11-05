@@ -3,9 +3,9 @@
   "theme": "almond",
   "name": "Mintlify Docs",
   "colors": {
-    "primary": "#16A34A",
-    "light": "#07C983",
-    "dark": "#15803D"
+    "primary": "#11B9A6",
+    "light": "#11B9A6",
+    "dark": "#008172"
   },
   "favicon": "/favicon.svg",
   "navigation": {
