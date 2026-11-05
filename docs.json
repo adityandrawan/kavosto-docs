@@ -1,6 +1,6 @@
 {
   "$schema": "https://mintlify.com/docs.json",
-  "theme": "mint",
+  "theme": "almond",
   "name": "Kavosto Docs",
   "colors": {
     "primary": "#11B9A6",
